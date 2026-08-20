@@ -1,0 +1,22 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "Procedural Characters",
+  "Description": "Budgeted, thread-safe procedural character animation state and scheduling.",
+  "Category": "Animation",
+  "EnabledByDefault": true,
+  "CanContainContent": true,
+  "Modules": [
+    {
+      "Name": "ProceduralCharactersRuntime",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "ProceduralCharactersEditor",
+      "Type": "UncookedOnly",
+      "LoadingPhase": "PreDefault"
+    }
+  ]
+}
